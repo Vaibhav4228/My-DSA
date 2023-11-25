@@ -1,0 +1,23 @@
+#include <iostream>
+using namespace std;
+
+void mergeSort(int arr [], int s, int e){
+
+    //base case 
+    if(s>e){
+        //invalide array
+        return;
+    }
+    if(s == e){
+        //sigle element
+        return
+    }
+    int mid = (s+e)/2;
+    
+    
+}
+
+int main(){
+    int arr [] = {2,8,5,99,100,86}
+    int size = 6;
+}
