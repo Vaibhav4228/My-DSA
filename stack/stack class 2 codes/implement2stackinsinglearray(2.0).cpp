@@ -8,7 +8,7 @@ class stack{
     int top1;
     int top2;
 
-    stac(int size){
+    stack(int size){
         arr = new int[size];
         this->size = size;
         top1 = -1;

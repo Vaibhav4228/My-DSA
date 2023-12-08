@@ -16,6 +16,7 @@ public:
                 if(!st.empty()) {
                     char topCh = st.top();
                     if(ch == ')' && topCh =='(') {
+            
                         //matching brackets
                         st.pop();
                     }

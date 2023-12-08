@@ -1,8 +1,13 @@
 {
-    "C_Cpp.errorSquiggles": "disabled",
-    "files.associations": {
-        "*.php": "php",
-        "iostream": "cpp",
-        "unordered_map": "cpp"
-    }
+  "C_Cpp.errorSquiggles": "disabled",
+  "files.associations": {
+    "*.php": "php",
+    "iostream": "cpp",
+    "unordered_map": "cpp",
+    "array": "cpp",
+    "string": "cpp"
+  },
+  "editor.fontSize": 15,
+  "editor.formatOnPaste": true,
+  "editor.formatOnSave": true
 }

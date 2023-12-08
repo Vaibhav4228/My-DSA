@@ -2,6 +2,7 @@
 using namespace std;
 
 int main() {
+    
 
     vector<int> v;
     v.push_back(34);
@@ -29,6 +30,6 @@ int main() {
     vector<vector<int>> a(3);
     a[0].ppush_back(32);
     a[0].push-back (45);
-     cout<<a[0][1];
+     cout<<a[0][1]; 
     
 }
