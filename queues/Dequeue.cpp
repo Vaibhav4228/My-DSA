@@ -20,7 +20,7 @@ class Cqueue{
     //empty
     //circular
     //normal form
-    if(front == 0 && rear == size-1){
+    if(front == 0 && rear == size-1 || (rear == front -1)){
       cout<<"overflow"<<endl;
 
     }
@@ -53,7 +53,8 @@ class Cqueue{
      }
      else if (front == rear){
       arr[front] = -1;
-      front++;
+      front = -1;
+      rear = -1;
      }
      else if(front == size-1){
       arr[front] = -1;
@@ -65,7 +66,7 @@ class Cqueue{
      }
    }
    void print(){
-    cout<<"front: "<<front<<"rear: "<< rear<<endl;
+    cout<<"front: " <<front<<"rear: "<< rear<<endl;
     cout<<"printing queue"<<endl;
     for (int i=0; i<size; i++){
       cout<<arr[i]<<" ";
@@ -94,6 +95,12 @@ int main(){
   q.print();
 
   q.push(60);
+  q.print();
+
+  q.push(70);
+  q.print();
+
+  q.pop();
   q.print();
 
   return 0;
